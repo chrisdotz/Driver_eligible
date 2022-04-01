@@ -3,7 +3,7 @@ age = input("Enter you age here: ")
 age = int(age)
 
 
-if age >= 17:
+if age >= 17 and age <= 99:
     print("You are legally ready to drive independently on the road.")
 else:
     print("Sorry, due to your input you are not yet eligible to drive.")
